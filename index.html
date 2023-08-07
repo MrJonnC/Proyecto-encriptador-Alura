@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="Logo">
+                <img src="img/Logo.svg">
+                <div class="Menu1">
+                    <div class="List"></div>
+                </div>
+
+                <div class="Menu2">
+                    <div class="List"></div>
+                </div>
+            </div>
+        </header>
+        <div class="Rectangle1"></div>
+
+        <div id="Frame5">
+
+            <h1>Ningún mensaje fue <br> encontrado</h1>
+            <h2>Ingresa el texto que desees encriptar o <br> desencriptar.</h2>
+            
+        </div>
+
+        <img id="Muñeco" src="img/Muñeco.svg">
+
+        <div class="Frame1">
+
+            <img src="img/Vector.svg">
+            <p>Solo letras minúsculas y sin acentos</p>
+
+        </div>
+
+        <div class="Frame3">
+
+            <button onclick="encriptar()" id="boton1"><p>Encriptar</p></button>
+            <button onclick="desencriptar()" id="boton2"><p>Desencriptar</p></button>
+
+        </div>
+
+        <textarea id="text" placeholder="Ingrese el texto aquí"></textarea>
+
+        <div id="Result" style="display: none;">
+            <textarea id="Resultado" readonly="readonly"></textarea>
+            <button onclick="Copiar()"><p>Copiar</p></button>
+        </div>
+
+        <div class="Creador">
+
+            <p>MrJonnC</p>
+            <a href="https://www.linkedin.com/in/jonathan-camaño/"><img id="Linkedin" src="img/Linkedin.png"></a> 
+            <a href="https://github.com/MrJonnC"><img id="github" src="img/Git.jpg"></a> 
+            
+        </div>
+        
+        <script src="script.js"></script>
+
+    </body>
+</html>
